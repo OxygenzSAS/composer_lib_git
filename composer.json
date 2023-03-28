@@ -1,5 +1,5 @@
 {
-    "name": "OxygenzSAS/git",
+    "name": "oxygenzsas/git",
     "description": "composer library for git",
     "license": "MIT",
     "keywords": ["php","git"],
