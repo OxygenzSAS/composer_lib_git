@@ -1,0 +1,17 @@
+{
+    "name": "OxygenzSAS/git",
+    "description": "composer library for git",
+    "license": "MIT",
+    "keywords": ["php","git"],
+    "authors": [
+        {
+            "name": "nvanhaezebrouck",
+            "email": "nicolas@oxygenz.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "OxygenzSAS\\git\\" : "src/"
+        }
+    }
+}
