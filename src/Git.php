@@ -9,7 +9,7 @@ class Git
     public static function getVersion(){
         try{
             ob_start();
-            exec('git describe --always',$versionMiniHash);
+            exec('git describe --always 2>&1',$versionMiniHash);
             if(isset($versionMiniHash[0])){
                 $version = $versionMiniHash[0];
             }
