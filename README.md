@@ -3,7 +3,7 @@ composer library for GIT
 
 # installation
 ```
-composer require oxygenzsas/git 
+composer require oxygenzsas/composer_lib_git 
 ```
 
 # example
