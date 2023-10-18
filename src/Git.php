@@ -23,4 +23,14 @@ class Git
         return $version ?? '';
     }
 
+    public static function getCurrentGitCommitHash()
+    {
+        try{
+            $head = trim(substr(file_get_contents( '.git/HEAD'), 4));
+            $hash = trim(file_get_contents('.git/'.$head));
+        }catch(\Throwable $e){}
+
+        return $hash ?? '';
+    }
+    
 }
